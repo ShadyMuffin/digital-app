@@ -17,7 +17,7 @@ function Hero() {
         <h1 className="text-4xl font-bold text-pink-600 mb-4">
           Transform Your Online Presence
         </h1>
-        <p className="text-2xl text-purple-600 mb-6 text-balance">
+        <p className="text-3xl text-purple-600 mb-6 text-balance">
           We are a digital marketing agency focused on driving results for your
           business. Let us help you attract, engage, and convert your audience.
         </p>

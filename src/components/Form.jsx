@@ -9,6 +9,11 @@ function Form() {
     console.log(e.target.value);
   };
 
+  const handleEmail = (e) => {
+    e.preventDefault();
+    console.log(e.target.value);
+  };
+
   return (
     <div className="flex justify-center p-4">
       <form
@@ -20,7 +25,7 @@ function Form() {
           Send us a message
         </label>
         <input
-          onChange={handleChange}
+          onChange={handleEmail}
           type="text"
           placeholder="Email"
           className="text-base text-black md:text-lg w-full p-3 font-sans font-bold h-12 rounded-lg"
